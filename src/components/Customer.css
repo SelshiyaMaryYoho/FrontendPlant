@@ -1,0 +1,27 @@
+.image-wrapper {
+  position: relative;
+  height: 200px; 
+}
+
+.corner-image {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  z-index: 1;
+}
+.left {
+  top: 0;
+  left: 0;
+}
+.right {
+  top: 0;
+  right: 0;
+}
+.customer-text {
+    text-align: center;
+    
+}
+p{
+    font-size: large;
+    font-weight: bold;
+}

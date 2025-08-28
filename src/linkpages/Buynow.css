@@ -1,0 +1,49 @@
+.buynow-container {
+  background-color: #f9faf7;
+  box-shadow: 0 4px 20px rgba(0, 0, 10, 0.2);
+  padding: 30px 40px;
+  max-width: 400px;
+  margin: 60px auto;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.buynow-title {
+  text-align: center;
+  color: #17290f;
+  margin-bottom: 20px;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.payment-options label {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+ 
+}
+.payment-options label input{
+    margin-right: 8px;
+}
+    
+
+.confirm-button {
+  background-color: #33691e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #689f38;
+}

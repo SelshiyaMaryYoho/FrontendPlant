@@ -1,0 +1,28 @@
+.thanks{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.thanks img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.button-thanks{   
+    text-decoration: none;
+   
+    color: black;
+    background-color: whitesmoke;
+   margin-top: 20px;
+    padding:10px;
+    border-radius: 4px;
+   
+    display: inline-block;
+    border: 2px solid ;
+   
+    
+}
+.button-thanks:hover{
+    background-color: black;
+    color: white;
+}

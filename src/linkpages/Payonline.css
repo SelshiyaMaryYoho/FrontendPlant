@@ -1,0 +1,49 @@
+.payment-page {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  
+  border-radius: 10px;
+  
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+ 
+}
+
+.payment-page h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 24px;
+}
+
+.payment-page input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid lightgreen;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.payment-page input:focus {
+  color: black;
+  
+}
+
+.confirm-button, .payment-page button {
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover, .payment-page button:hover {
+  color: white;
+  background-color: black;
+}
